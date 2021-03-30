@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stilus.css" rel="stylesheet">
+    <title>Urlap 2</title>
+</head>
+
+<body>
+    <h2 id="alap">Alapadatok</h2>
+    <form>
+        <label>Teljes neved</label>
+        <input type="text" id="label1">
+        <br>
+        <label>Nemed</label>
+        <input type="radio" name="nemed" id="férfi" value="Férfi">
+        <input type="radio" name="nemed" id="nő" value="Nő"><br>
+        <label for="férfi" id="text1">Férfi</label>
+        <label for="nő" id="text2">Nő</label><br>
+        <label>Email</label>
+        <input type="text" required><br>
+        <label>Telefonszám</label>
+        <select required>
+            <option>+36</option>
+            <option>+235</option>
+            <option>+56</option>
+            <option>+44</option>
+        </select>
+        <input type="text" required><br>
+        <label>Levelezés<br>alapértelmezett nyelve</label>
+        <select required>
+            <option>Magyar</option>
+            <option>Angol</option>
+            <option>Orosz</option>
+            <option>Olasz</option>
+        </select><br>
+        <label>Születési idő</label>
+        <select>
+            <option>Év</option>
+        </select>
+        <select>
+            <option>Hó</option>
+        </select>
+        <select>
+            <option>Nap</option>
+        </select>
+
+        <p>
+            <img src="torta.png"> Add meg a születésnapodat és várd a meglepetést!
+        </p>
+
+        <input type="submit"  id="mentes" value="Mentés">
+    </form>
+</body>
+</html>
